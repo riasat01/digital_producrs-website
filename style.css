@@ -71,3 +71,37 @@
     text-align: center;
     padding: 20px 0 0 0;
 }
+.box{
+    width: 200px;
+    height: 350px;
+    box-shadow: 14px 14px 15px grey;
+    text-align: center;
+    background-color: black;
+    padding: 15px;
+    color: white;
+
+}
+.icon{
+    width: 100px;
+}
+.box-btn{
+    background-color: grey;
+    margin: 10px 0 0 0;
+}
+.box-title{
+    padding: 10px;
+
+}
+.box-description{
+    padding: 5px;
+}
+.sevice-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgb(32,32,32);
+}
+.service-title{
+    background-color: rgb(32,32,32);
+    color: white;
+}
