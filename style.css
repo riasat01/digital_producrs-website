@@ -130,7 +130,9 @@
 }
 .divider-line{
     margin: 0 150px 0;
-    color: grey;
+    border-color: rgb(53,53,53);
+    /* color: red;
+    background-color:red; */
     /* background-color: black; */
 }
 .copyright-line{
@@ -138,5 +140,5 @@
     /* background-color: black; */
     color: white;
     padding: 30px 0;
-    font-size: 12px;
+    /* font-size: 12px; */
 }
