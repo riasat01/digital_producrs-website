@@ -2,3 +2,21 @@
     margin: 0px;
     padding: 0px;
 }
+.container{
+    height: 150px;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: space-evenly;/*horizontal positon fixing*/
+    align-items: center;/*vertical position fixing*/
+    flex-direction: row-reverse;
+}
+.box{
+    /* display: inline-block; */
+    /* float: inline-start; */
+    padding: 20px;
+    background-color: aqua;
+    width: 120px;
+}
+.box1{
+    background-color: tomato;
+}
