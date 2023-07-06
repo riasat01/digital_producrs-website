@@ -44,6 +44,7 @@
 .description{
     margin: 15px 0;
     font-size: 18px;
+    /* width: 50%s; */
 }
 .btn{
     padding: 10px 20px;
@@ -55,4 +56,18 @@
 .btn:hover{
     /* cursor: url('./logo/logo2.png'),auto; */
     cursor:grab;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 20px 0 0 0;
+}
+.about-info{
+    max-width: 600px;
+}
+.about-title{
+    text-align: center;
+    padding: 20px 0 0 0;
 }
